@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "스크린샷 2023-03-30 23.32.12.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "스크린샷 2023-03-30 23.32.12 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "스크린샷 2023-03-30 23.32.12 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
