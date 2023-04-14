@@ -101,27 +101,61 @@ import UIKit
 //        return cell
 //    }
 //}
+
+// MARK: - Collectin View
+//import UIKit
+//class ViewController: UIViewController,
+//                      UICollectionViewDataSource,
+//                      UICollectionViewDelegate {
+//
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        // Do any additional setup after loading the view.
+//    }
+//    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+//        return 10
+//    }
+//    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+//        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as?
+//                UICollectionViewCell else {
+//            return UICollectionViewCell()
+//        }
+//
+//        return cell
+//    }
+//
+//
+//
+//}
 import UIKit
-class ViewController: UIViewController,
-                      UICollectionViewDataSource,
-                      UICollectionViewDelegate {
+
+struct Item {
+    var name: String
+    var price: Int
+}
+
+class MyTableViewController: UITableViewController {
+    var items: [Item] = [
+        Item(name: "Item A", price: 100),
+        Item(name: "Item B", price: 200),
+        Item(name: "Item C", price: 300)
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // 추가적인 초기화 및 설정
     }
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+    
+    // UITableViewDataSource 프로토콜 구현
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return items.count
     }
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as?
-                UICollectionViewCell else {
-            return UICollectionViewCell()
-        }
-        
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let item = items[indexPath.row]
+        cell.textLabel?.text = item.name
+        cell.detailTextLabel?.text = "$\(item.price)"
         return cell
     }
-
-    
-  
 }
