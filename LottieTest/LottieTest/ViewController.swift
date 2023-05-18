@@ -10,7 +10,7 @@ class ViewController: UIViewController {
         self.view.addSubview(animationView)
         
         
-        // animationView의 설정 작업은 알아서 하세요
+        
         animationView.frame = self.view.bounds
         animationView.center = self.view.center
         animationView.contentMode = .scaleAspectFit
