@@ -6,6 +6,5 @@ target 'Study-08' do
   use_frameworks!
 
   # Pods for Study-08
-  pod 'DCAnimationKit'
-
+  pod "SAHistoryNavigationViewController"
 end

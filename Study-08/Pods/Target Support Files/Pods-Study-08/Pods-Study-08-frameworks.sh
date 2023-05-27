@@ -176,10 +176,12 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/DCAnimationKit/DCAnimationKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MisterFusion/MisterFusion.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SAHistoryNavigationViewController/SAHistoryNavigationViewController.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/DCAnimationKit/DCAnimationKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MisterFusion/MisterFusion.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SAHistoryNavigationViewController/SAHistoryNavigationViewController.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

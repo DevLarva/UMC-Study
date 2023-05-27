@@ -1,16 +1,20 @@
 PODS:
-  - DCAnimationKit (0.0.6)
+  - MisterFusion (5.0.0)
+  - SAHistoryNavigationViewController (3.1.1):
+    - MisterFusion
 
 DEPENDENCIES:
-  - DCAnimationKit
+  - SAHistoryNavigationViewController
 
 SPEC REPOS:
   trunk:
-    - DCAnimationKit
+    - MisterFusion
+    - SAHistoryNavigationViewController
 
 SPEC CHECKSUMS:
-  DCAnimationKit: 7133bef877ce1aa113dcfeea1380ca67f91f7608
+  MisterFusion: 536b0f57d2d4b775e3c9ce436e211ed293c5e01a
+  SAHistoryNavigationViewController: fbe7ad886f3f846a5c5742180d57ae7545b810a7
 
-PODFILE CHECKSUM: 2ffa5fb551dcd234a9b0e82014ee720b0eac4c90
+PODFILE CHECKSUM: 017f52d3f6fc8031290419e754cb5d339e21d4e9
 
 COCOAPODS: 1.11.3

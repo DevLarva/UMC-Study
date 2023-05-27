@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-Study-08/Pods-Study-08-frameworks.sh
-${BUILT_PRODUCTS_DIR}/DCAnimationKit/DCAnimationKit.framework
+${BUILT_PRODUCTS_DIR}/MisterFusion/MisterFusion.framework
+${BUILT_PRODUCTS_DIR}/SAHistoryNavigationViewController/SAHistoryNavigationViewController.framework

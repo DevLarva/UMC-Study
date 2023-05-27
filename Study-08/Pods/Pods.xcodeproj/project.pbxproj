@@ -3,98 +3,219 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		076CA1F1FFBC81557B56139AC0BE758F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		0B851BC119DF321EE988241292B95ED8 /* UIView+DCAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED1D81C723F3DFACE292F12C0DF2FE2 /* UIView+DCAnimationKit.m */; };
-		2A5EEF65C3B57A2A80438D8AAE54B1A2 /* Pods-Study-08-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DD9F15BA80F7FF52222F5726CD3C38 /* Pods-Study-08-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53E947FED82CFC9EB5E123D68AEFF409 /* UIView+DCAnimationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D1D190126F3F94BA0C7D9653652A9CC /* UIView+DCAnimationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FB70FFCDB14214FC53FB6D39F78C898 /* Pods-Study-08-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3A5B7C7DF7FE5A0BF7AC7E0A91D81E /* Pods-Study-08-dummy.m */; };
-		735366B0F841870765D321BE23A4A69C /* DCAnimationKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A1EA03F230E6F0F637C73F083E1F3F /* DCAnimationKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CDD8F8E472F1F2CB8550E17C3EEA7CA /* DCAnimationKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2476DA71141AC25CEADA21A2B8CE3F65 /* DCAnimationKit-dummy.m */; };
-		AE66CA28D68544D48603BBFCA4016266 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		03AA22466DAD761F806CE8D6C4764AD0 /* SAHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3583A0F2D9D548D993080120A9EC5E3 /* SAHistoryViewController.swift */; };
+		051538ADBA595429EBC8940856C3EED6 /* SAHistoryNavigationTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12D53051C4E4A04EFDB3879D001430D /* SAHistoryNavigationTransitionController.swift */; };
+		08510F182DC99687A05A700228FF8B5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578EFAB360B85FAFF61F43D8DEA2892A /* Foundation.framework */; };
+		0FEA99546B9DE3AEF648A95EBFDBAE0C /* SAHistoryNavigationViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E23F9A09A4FE0C7351AF0884D4E9962 /* SAHistoryNavigationViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14A1AADED0B5D6F1F61C3956252DF661 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9221A998AF14A8C076607583B0A1C4F /* UIKit.framework */; };
+		1BCB207EC4C4294FCC9A5D591EEAABBB /* SAHistoryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F64EB826E2DB04A3C08C2472716AD8 /* SAHistoryExtension.swift */; };
+		217149E45157D7F84A09FB64B2BA2E70 /* MisterFusion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF57041AA1F1E2FAE592DC75113DE82 /* MisterFusion-dummy.m */; };
+		23067864813651B928E4A34322283426 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D80DA3AF30D8E567A716ABB337D26A /* AudioToolbox.framework */; };
+		3386D59755AF44B8EC79D4A8704200DF /* MisterFusion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2169945008317A65FD6825018EF9992 /* MisterFusion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		665411283F825023481D5F1E3488AAF2 /* MisterFusion.SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4787A0E6265104231C0621E3201A7A36 /* MisterFusion.SafeArea.swift */; };
+		6F46811C0D92DBF16F9BAF216382AB4C /* Pods-Study-08-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DD9F15BA80F7FF52222F5726CD3C38 /* Pods-Study-08-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B7C566C9102DF0E78DDA5B51E8BDA39 /* UIViewController+Screenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5AEFE8357D52E20DE5F5569E88AFCF /* UIViewController+Screenshot.swift */; };
+		9587BA638F32E7E27322D49B7B9DCEB6 /* Array+MisterFusion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307BBA3F0F37C897E6FBE0E2CB9401C4 /* Array+MisterFusion.swift */; };
+		9EE8B6C6C3109FBBD170A006DF81E5DC /* SAThirdDimensionalTouchRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781683317FC7F1A0A43BE9DFCC6B36B8 /* SAThirdDimensionalTouchRecognizer.swift */; };
+		9F1545E8BAD00911E69C26C12BCFAB84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578EFAB360B85FAFF61F43D8DEA2892A /* Foundation.framework */; };
+		A4D5965FAB8C29930084C4F2062116D3 /* MisterFusionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F791F953B706D82EA934275BEA2F35B7 /* MisterFusionExtension.swift */; };
+		A65C0F9EAF7FA6EE8AF4889F40C86D43 /* SAHistoryViewAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356091DE7897151F900B608959E7760B /* SAHistoryViewAnimatedTransitioning.swift */; };
+		A8C1DA958089CB8559D653460EC5DA83 /* MisterFusionConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C2B64CBD4F21F1F66D453F356841C8 /* MisterFusionConvertible.swift */; };
+		AC4E53A82A20B25600A12F80 /* SAHistoryNavigationTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12D53051C4E4A04EFDB3879D001430D /* SAHistoryNavigationTransitionController.swift */; };
+		AC4E53A92A20B25600A12F80 /* SAHistoryNavigationTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12D53051C4E4A04EFDB3879D001430D /* SAHistoryNavigationTransitionController.swift */; };
+		C15245E7833B6B98C45C55A93ECE5643 /* MisterFusion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9FC0246244DFE81E9A7BAAA15BE5D3 /* MisterFusion.swift */; };
+		C5511950F97B8BB388791C07DCD9C81B /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702CD5FE74D0F5269FFA64EE5BF2E651 /* Deprecated.swift */; };
+		CE3F8A0A9A7E2256E3F656D7D5A8CBFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578EFAB360B85FAFF61F43D8DEA2892A /* Foundation.framework */; };
+		D03405E11C3BC9DC30B7C6874905E0A7 /* SAHistoryNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D27B576D12E38CF31E7DB369BFE8351 /* SAHistoryNavigationViewController.swift */; };
+		D390448FCE6373C3E235B4A2146518B4 /* SAHistoryNavigationViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 542877D9D28A5D1EB3BAC97E70866C20 /* SAHistoryNavigationViewController-dummy.m */; };
+		D762E3616FB55078DEBC613654F1D3DB /* UIView+Screenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A7480F7313A59987D79FFB23E2BD56 /* UIView+Screenshot.swift */; };
+		F01F592A487AFDA448D866F27B1EE298 /* Pods-Study-08-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3A5B7C7DF7FE5A0BF7AC7E0A91D81E /* Pods-Study-08-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D42DA38FBFECA009B66182660B68FEE8 /* PBXContainerItemProxy */ = {
+		41DB979FCE707AAF702298C7C2DAABD9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A90887EDC2C91F2ADCF8976B92BE0795;
-			remoteInfo = DCAnimationKit;
+			remoteGlobalIDString = D99757DF102E61105024A0FF665A070A;
+			remoteInfo = SAHistoryNavigationViewController;
+		};
+		D0409235DCCC0658C6320ABB3A93915B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D042C88620BDE09ED520AF46BC32A15;
+			remoteInfo = MisterFusion;
+		};
+		FB0CDE5EB1EDB01892E0BF80F69F87ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D042C88620BDE09ED520AF46BC32A15;
+			remoteInfo = MisterFusion;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0190B502C1AD2534BBC0C5AA6EECF0DD /* SAHistoryNavigationViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAHistoryNavigationViewController-prefix.pch"; sourceTree = "<group>"; };
 		0323214DBC8EE195773292C1B799DC33 /* Pods-Study-08.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Study-08.release.xcconfig"; sourceTree = "<group>"; };
-		2476DA71141AC25CEADA21A2B8CE3F65 /* DCAnimationKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCAnimationKit-dummy.m"; sourceTree = "<group>"; };
-		25F3BA9AA9C5F08F0ED259B67DD681AA /* DCAnimationKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCAnimationKit.modulemap; sourceTree = "<group>"; };
-		340024E69DC80E68D74C73BB6019051D /* DCAnimationKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DCAnimationKit-Info.plist"; sourceTree = "<group>"; };
+		12C773A1A30F89C319FC0DCA2EAE822D /* SAHistoryNavigationViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SAHistoryNavigationViewController.modulemap; sourceTree = "<group>"; };
+		16DD23752F284E2B7E8A238FE375DE86 /* SAHistoryNavigationViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAHistoryNavigationViewController.release.xcconfig; sourceTree = "<group>"; };
+		2C5AEFE8357D52E20DE5F5569E88AFCF /* UIViewController+Screenshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Screenshot.swift"; path = "SAHistoryNavigationViewController/UIViewController+Screenshot.swift"; sourceTree = "<group>"; };
+		2F04CE9F0DC53FF54C242FE6B3FD7BEC /* SAHistoryNavigationViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAHistoryNavigationViewController.debug.xcconfig; sourceTree = "<group>"; };
+		307BBA3F0F37C897E6FBE0E2CB9401C4 /* Array+MisterFusion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+MisterFusion.swift"; path = "MisterFusion/Array+MisterFusion.swift"; sourceTree = "<group>"; };
+		356091DE7897151F900B608959E7760B /* SAHistoryViewAnimatedTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAHistoryViewAnimatedTransitioning.swift; path = SAHistoryNavigationViewController/SAHistoryViewAnimatedTransitioning.swift; sourceTree = "<group>"; };
 		36DD9F15BA80F7FF52222F5726CD3C38 /* Pods-Study-08-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Study-08-umbrella.h"; sourceTree = "<group>"; };
-		3D1D190126F3F94BA0C7D9653652A9CC /* UIView+DCAnimationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+DCAnimationKit.h"; sourceTree = "<group>"; };
+		37A7480F7313A59987D79FFB23E2BD56 /* UIView+Screenshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Screenshot.swift"; path = "SAHistoryNavigationViewController/UIView+Screenshot.swift"; sourceTree = "<group>"; };
 		4284166374A5C792BBD00048F5BF3673 /* Pods-Study-08.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Study-08.modulemap"; sourceTree = "<group>"; };
-		4599A3A0382415AFEA72AD63BC072B7C /* DCAnimationKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DCAnimationKit; path = DCAnimationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4787A0E6265104231C0621E3201A7A36 /* MisterFusion.SafeArea.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MisterFusion.SafeArea.swift; path = MisterFusion/MisterFusion.SafeArea.swift; sourceTree = "<group>"; };
 		49D6BB65883D18593C0A69C922098FC3 /* Pods-Study-08-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Study-08-acknowledgements.plist"; sourceTree = "<group>"; };
+		51CD90192AD913F9B08F2207E90E9A3A /* MisterFusion */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MisterFusion; path = MisterFusion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		542877D9D28A5D1EB3BAC97E70866C20 /* SAHistoryNavigationViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAHistoryNavigationViewController-dummy.m"; sourceTree = "<group>"; };
+		578EFAB360B85FAFF61F43D8DEA2892A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5E23F9A09A4FE0C7351AF0884D4E9962 /* SAHistoryNavigationViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAHistoryNavigationViewController-umbrella.h"; sourceTree = "<group>"; };
 		5FEDB34242BEDE5B3D8A761DB0417DCE /* Pods-Study-08 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Study-08"; path = Pods_Study_08.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ED1D81C723F3DFACE292F12C0DF2FE2 /* UIView+DCAnimationKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+DCAnimationKit.m"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68440D065C41C4A2EFC8B4932EC1083D /* SAHistoryNavigationViewController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SAHistoryNavigationViewController; path = SAHistoryNavigationViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		702CD5FE74D0F5269FFA64EE5BF2E651 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = MisterFusion/Deprecated.swift; sourceTree = "<group>"; };
+		781683317FC7F1A0A43BE9DFCC6B36B8 /* SAThirdDimensionalTouchRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAThirdDimensionalTouchRecognizer.swift; path = SAHistoryNavigationViewController/SAThirdDimensionalTouchRecognizer.swift; sourceTree = "<group>"; };
 		7C3A5B7C7DF7FE5A0BF7AC7E0A91D81E /* Pods-Study-08-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Study-08-dummy.m"; sourceTree = "<group>"; };
+		7D27B576D12E38CF31E7DB369BFE8351 /* SAHistoryNavigationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAHistoryNavigationViewController.swift; path = SAHistoryNavigationViewController/SAHistoryNavigationViewController.swift; sourceTree = "<group>"; };
 		7FEE9DC6893D5B8A09A4C520A100D088 /* Pods-Study-08-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Study-08-Info.plist"; sourceTree = "<group>"; };
-		88A1EA03F230E6F0F637C73F083E1F3F /* DCAnimationKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCAnimationKit-umbrella.h"; sourceTree = "<group>"; };
-		8E535E6662924AA5E51E23B76F3DC4EB /* DCAnimationKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCAnimationKit-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		80F64EB826E2DB04A3C08C2472716AD8 /* SAHistoryExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAHistoryExtension.swift; path = SAHistoryNavigationViewController/SAHistoryExtension.swift; sourceTree = "<group>"; };
+		88C2B64CBD4F21F1F66D453F356841C8 /* MisterFusionConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MisterFusionConvertible.swift; path = MisterFusion/MisterFusionConvertible.swift; sourceTree = "<group>"; };
+		92B22158D9242BF2F0F3C3A4D6F14DC8 /* SAHistoryNavigationViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SAHistoryNavigationViewController-Info.plist"; sourceTree = "<group>"; };
+		993536868D45EEAEC82DA554AA8211F1 /* MisterFusion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MisterFusion.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A869CA64A2D1E4B63BE7726C907CD596 /* Pods-Study-08-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Study-08-frameworks.sh"; sourceTree = "<group>"; };
-		A86FF244F8B19A78424395B36EFA43FD /* DCAnimationKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCAnimationKit.release.xcconfig; sourceTree = "<group>"; };
+		A9221A998AF14A8C076607583B0A1C4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		ACF57041AA1F1E2FAE592DC75113DE82 /* MisterFusion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MisterFusion-dummy.m"; sourceTree = "<group>"; };
+		B8710666D342C6DDD56EB47B8615A285 /* MisterFusion-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MisterFusion-Info.plist"; sourceTree = "<group>"; };
+		C3583A0F2D9D548D993080120A9EC5E3 /* SAHistoryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAHistoryViewController.swift; path = SAHistoryNavigationViewController/SAHistoryViewController.swift; sourceTree = "<group>"; };
+		D12D53051C4E4A04EFDB3879D001430D /* SAHistoryNavigationTransitionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAHistoryNavigationTransitionController.swift; path = SAHistoryNavigationViewController/SAHistoryNavigationTransitionController.swift; sourceTree = "<group>"; };
+		D2169945008317A65FD6825018EF9992 /* MisterFusion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MisterFusion-umbrella.h"; sourceTree = "<group>"; };
+		D8D80DA3AF30D8E567A716ABB337D26A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		DD75C907C512FE8F2418F2385C9036E0 /* MisterFusion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MisterFusion.modulemap; sourceTree = "<group>"; };
 		DE86BF1BF143A5590B1FC55FE54B9B96 /* Pods-Study-08-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Study-08-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E12C28AE0C37AEA3AA6AD7DE0B00B362 /* MisterFusion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MisterFusion.debug.xcconfig; sourceTree = "<group>"; };
 		E4554F6CE844B2C0E6DFDC9C7CB8B6B1 /* Pods-Study-08.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Study-08.debug.xcconfig"; sourceTree = "<group>"; };
-		EDB5659477D4A9E75A9DF01B609EB3F5 /* DCAnimationKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCAnimationKit.debug.xcconfig; sourceTree = "<group>"; };
+		E5D5F4F035E3CBC97A0F63619AE39857 /* MisterFusion-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MisterFusion-prefix.pch"; sourceTree = "<group>"; };
+		F791F953B706D82EA934275BEA2F35B7 /* MisterFusionExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MisterFusionExtension.swift; path = MisterFusion/MisterFusionExtension.swift; sourceTree = "<group>"; };
+		FE9FC0246244DFE81E9A7BAAA15BE5D3 /* MisterFusion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MisterFusion.swift; path = MisterFusion/MisterFusion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		579DAB543DEDA467A3729F2E0ED8A113 /* Frameworks */ = {
+		0F5FBED29D759074987CAEE4B60EEA53 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE66CA28D68544D48603BBFCA4016266 /* Foundation.framework in Frameworks */,
+				9F1545E8BAD00911E69C26C12BCFAB84 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2E70B71A727509231AEE29A93578841 /* Frameworks */ = {
+		179FA0A1319C5CD81BE49BB41ADD00CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				076CA1F1FFBC81557B56139AC0BE758F /* Foundation.framework in Frameworks */,
+				CE3F8A0A9A7E2256E3F656D7D5A8CBFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19EE321E56100912A1F17B500F025BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23067864813651B928E4A34322283426 /* AudioToolbox.framework in Frameworks */,
+				08510F182DC99687A05A700228FF8B5D /* Foundation.framework in Frameworks */,
+				14A1AADED0B5D6F1F61C3956252DF661 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01B35CDC8D51A2BBF9338D22C5B4CCCA /* Products */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4599A3A0382415AFEA72AD63BC072B7C /* DCAnimationKit */,
+				480A7D1E86B56543B96334C2B2543371 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3441BC08EA40E90E334311E49746166B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51CD90192AD913F9B08F2207E90E9A3A /* MisterFusion */,
 				5FEDB34242BEDE5B3D8A761DB0417DCE /* Pods-Study-08 */,
+				68440D065C41C4A2EFC8B4932EC1083D /* SAHistoryNavigationViewController */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		3F5BB5F156C04F79BC2041E9D212B494 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				7E5B71C79C43A01A4EE7638ECC76F440 /* MisterFusion */,
+				C5C5A68781B38D841CBA548DB3B14EDA /* SAHistoryNavigationViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		465472B0CCA1E390E690F955781B54BA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12C773A1A30F89C319FC0DCA2EAE822D /* SAHistoryNavigationViewController.modulemap */,
+				542877D9D28A5D1EB3BAC97E70866C20 /* SAHistoryNavigationViewController-dummy.m */,
+				92B22158D9242BF2F0F3C3A4D6F14DC8 /* SAHistoryNavigationViewController-Info.plist */,
+				0190B502C1AD2534BBC0C5AA6EECF0DD /* SAHistoryNavigationViewController-prefix.pch */,
+				5E23F9A09A4FE0C7351AF0884D4E9962 /* SAHistoryNavigationViewController-umbrella.h */,
+				2F04CE9F0DC53FF54C242FE6B3FD7BEC /* SAHistoryNavigationViewController.debug.xcconfig */,
+				16DD23752F284E2B7E8A238FE375DE86 /* SAHistoryNavigationViewController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAHistoryNavigationViewController";
+			sourceTree = "<group>";
+		};
+		480A7D1E86B56543B96334C2B2543371 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D8D80DA3AF30D8E567A716ABB337D26A /* AudioToolbox.framework */,
+				578EFAB360B85FAFF61F43D8DEA2892A /* Foundation.framework */,
+				A9221A998AF14A8C076607583B0A1C4F /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		843355C29BC90554594E03DB430BF84B /* Pods */ = {
+		6B0FD23FD0BA0DD9D7334350921EAF9D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E69E2A8D84C8159104D3A59257761190 /* DCAnimationKit */,
+				DD75C907C512FE8F2418F2385C9036E0 /* MisterFusion.modulemap */,
+				ACF57041AA1F1E2FAE592DC75113DE82 /* MisterFusion-dummy.m */,
+				B8710666D342C6DDD56EB47B8615A285 /* MisterFusion-Info.plist */,
+				E5D5F4F035E3CBC97A0F63619AE39857 /* MisterFusion-prefix.pch */,
+				D2169945008317A65FD6825018EF9992 /* MisterFusion-umbrella.h */,
+				E12C28AE0C37AEA3AA6AD7DE0B00B362 /* MisterFusion.debug.xcconfig */,
+				993536868D45EEAEC82DA554AA8211F1 /* MisterFusion.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/MisterFusion";
+			sourceTree = "<group>";
+		};
+		7E5B71C79C43A01A4EE7638ECC76F440 /* MisterFusion */ = {
+			isa = PBXGroup;
+			children = (
+				307BBA3F0F37C897E6FBE0E2CB9401C4 /* Array+MisterFusion.swift */,
+				702CD5FE74D0F5269FFA64EE5BF2E651 /* Deprecated.swift */,
+				FE9FC0246244DFE81E9A7BAAA15BE5D3 /* MisterFusion.swift */,
+				4787A0E6265104231C0621E3201A7A36 /* MisterFusion.SafeArea.swift */,
+				88C2B64CBD4F21F1F66D453F356841C8 /* MisterFusionConvertible.swift */,
+				F791F953B706D82EA934275BEA2F35B7 /* MisterFusionExtension.swift */,
+				6B0FD23FD0BA0DD9D7334350921EAF9D /* Support Files */,
+			);
+			path = MisterFusion;
 			sourceTree = "<group>";
 		};
 		8AFC967EC6CC966FB664A881DBD7891E /* Pods-Study-08 */ = {
@@ -114,49 +235,31 @@
 			path = "Target Support Files/Pods-Study-08";
 			sourceTree = "<group>";
 		};
-		94B285603E9422FD96934972CFD4FE7C /* Support Files */ = {
+		C5C5A68781B38D841CBA548DB3B14EDA /* SAHistoryNavigationViewController */ = {
 			isa = PBXGroup;
 			children = (
-				25F3BA9AA9C5F08F0ED259B67DD681AA /* DCAnimationKit.modulemap */,
-				2476DA71141AC25CEADA21A2B8CE3F65 /* DCAnimationKit-dummy.m */,
-				340024E69DC80E68D74C73BB6019051D /* DCAnimationKit-Info.plist */,
-				8E535E6662924AA5E51E23B76F3DC4EB /* DCAnimationKit-prefix.pch */,
-				88A1EA03F230E6F0F637C73F083E1F3F /* DCAnimationKit-umbrella.h */,
-				EDB5659477D4A9E75A9DF01B609EB3F5 /* DCAnimationKit.debug.xcconfig */,
-				A86FF244F8B19A78424395B36EFA43FD /* DCAnimationKit.release.xcconfig */,
+				80F64EB826E2DB04A3C08C2472716AD8 /* SAHistoryExtension.swift */,
+				D12D53051C4E4A04EFDB3879D001430D /* SAHistoryNavigationTransitionController.swift */,
+				7D27B576D12E38CF31E7DB369BFE8351 /* SAHistoryNavigationViewController.swift */,
+				356091DE7897151F900B608959E7760B /* SAHistoryViewAnimatedTransitioning.swift */,
+				C3583A0F2D9D548D993080120A9EC5E3 /* SAHistoryViewController.swift */,
+				781683317FC7F1A0A43BE9DFCC6B36B8 /* SAThirdDimensionalTouchRecognizer.swift */,
+				37A7480F7313A59987D79FFB23E2BD56 /* UIView+Screenshot.swift */,
+				2C5AEFE8357D52E20DE5F5569E88AFCF /* UIViewController+Screenshot.swift */,
+				465472B0CCA1E390E690F955781B54BA /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DCAnimationKit";
+			path = SAHistoryNavigationViewController;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				843355C29BC90554594E03DB430BF84B /* Pods */,
-				01B35CDC8D51A2BBF9338D22C5B4CCCA /* Products */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				3F5BB5F156C04F79BC2041E9D212B494 /* Pods */,
+				3441BC08EA40E90E334311E49746166B /* Products */,
 				F47671769282C45AF1A1F93348D8BE75 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E69E2A8D84C8159104D3A59257761190 /* DCAnimationKit */ = {
-			isa = PBXGroup;
-			children = (
-				3D1D190126F3F94BA0C7D9653652A9CC /* UIView+DCAnimationKit.h */,
-				6ED1D81C723F3DFACE292F12C0DF2FE2 /* UIView+DCAnimationKit.m */,
-				94B285603E9422FD96934972CFD4FE7C /* Support Files */,
-			);
-			name = DCAnimationKit;
-			path = DCAnimationKit;
 			sourceTree = "<group>";
 		};
 		F47671769282C45AF1A1F93348D8BE75 /* Targets Support Files */ = {
@@ -170,61 +273,88 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6EF76F0C3336427F5E25B99D7F5BF8A7 /* Headers */ = {
+		9B97A3E6DF4392A9260D96B32A945C5B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A5EEF65C3B57A2A80438D8AAE54B1A2 /* Pods-Study-08-umbrella.h in Headers */,
+				6F46811C0D92DBF16F9BAF216382AB4C /* Pods-Study-08-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE7B1D04BB6B76B441E3884BCEFD1A3A /* Headers */ = {
+		B327E47970E3B6865136D1DCA8EB2057 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				735366B0F841870765D321BE23A4A69C /* DCAnimationKit-umbrella.h in Headers */,
-				53E947FED82CFC9EB5E123D68AEFF409 /* UIView+DCAnimationKit.h in Headers */,
+				0FEA99546B9DE3AEF648A95EBFDBAE0C /* SAHistoryNavigationViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F2A1D5EDA4955DAFCA47FCBB513F7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3386D59755AF44B8EC79D4A8704200DF /* MisterFusion-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A8934A028D7209DA3501572C72A8F11F /* Pods-Study-08 */ = {
+		6D042C88620BDE09ED520AF46BC32A15 /* MisterFusion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECD33DF578E7F86AECB6CF5114E46DF9 /* Build configuration list for PBXNativeTarget "Pods-Study-08" */;
+			buildConfigurationList = B35C07E86C83D8519AB98954E07013D2 /* Build configuration list for PBXNativeTarget "MisterFusion" */;
 			buildPhases = (
-				6EF76F0C3336427F5E25B99D7F5BF8A7 /* Headers */,
-				2B352DB8C274862FFEF08664FF773DC1 /* Sources */,
-				A2E70B71A727509231AEE29A93578841 /* Frameworks */,
-				CB770EC380F0CA57CD4A2C4A6CFBA6E4 /* Resources */,
+				D4F2A1D5EDA4955DAFCA47FCBB513F7F /* Headers */,
+				A6B7CFF5406087FB454005C93B377517 /* Sources */,
+				179FA0A1319C5CD81BE49BB41ADD00CD /* Frameworks */,
+				C0EC53B7649F7456092B85CF28FD3EBA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				51A6987EC43F58990E89B596939931DE /* PBXTargetDependency */,
+			);
+			name = MisterFusion;
+			productName = MisterFusion;
+			productReference = 51CD90192AD913F9B08F2207E90E9A3A /* MisterFusion */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8934A028D7209DA3501572C72A8F11F /* Pods-Study-08 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6859A0E18E59F2925AC963F3D8AA7342 /* Build configuration list for PBXNativeTarget "Pods-Study-08" */;
+			buildPhases = (
+				9B97A3E6DF4392A9260D96B32A945C5B /* Headers */,
+				1ACE5A49288675FD67EB7155FE6204E8 /* Sources */,
+				0F5FBED29D759074987CAEE4B60EEA53 /* Frameworks */,
+				29BF0D3AD9B08296B97F0B91C6ED5A0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8109A7C7E65F923C721A214102254855 /* PBXTargetDependency */,
+				BBD38BF4C8E1CC8E3E3EED179625D6E3 /* PBXTargetDependency */,
 			);
 			name = "Pods-Study-08";
 			productName = Pods_Study_08;
 			productReference = 5FEDB34242BEDE5B3D8A761DB0417DCE /* Pods-Study-08 */;
 			productType = "com.apple.product-type.framework";
 		};
-		A90887EDC2C91F2ADCF8976B92BE0795 /* DCAnimationKit */ = {
+		D99757DF102E61105024A0FF665A070A /* SAHistoryNavigationViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 180CDDCDB30D2F32B48241F3718FFB39 /* Build configuration list for PBXNativeTarget "DCAnimationKit" */;
+			buildConfigurationList = F7145D22C5EA10C9E670DDB423301C1F /* Build configuration list for PBXNativeTarget "SAHistoryNavigationViewController" */;
 			buildPhases = (
-				EE7B1D04BB6B76B441E3884BCEFD1A3A /* Headers */,
-				97A0E0F7B03AB7CD1A71BF5CF6AEDC87 /* Sources */,
-				579DAB543DEDA467A3729F2E0ED8A113 /* Frameworks */,
-				B6BC9A3529A40130B0A3934C75686685 /* Resources */,
+				B327E47970E3B6865136D1DCA8EB2057 /* Headers */,
+				BF738F4E0D3ABD930A10BCA207687EB0 /* Sources */,
+				19EE321E56100912A1F17B500F025BD3 /* Frameworks */,
+				A400E37A01A11FB89EBC7AEFEA7FE832 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				37D1BEB447ECDD27395CE34F9210BC2B /* PBXTargetDependency */,
 			);
-			name = DCAnimationKit;
-			productName = DCAnimationKit;
-			productReference = 4599A3A0382415AFEA72AD63BC072B7C /* DCAnimationKit */;
+			name = SAHistoryNavigationViewController;
+			productName = SAHistoryNavigationViewController;
+			productReference = 68440D065C41C4A2EFC8B4932EC1083D /* SAHistoryNavigationViewController */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -237,7 +367,7 @@
 				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -245,25 +375,33 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 01B35CDC8D51A2BBF9338D22C5B4CCCA /* Products */;
+			productRefGroup = 3441BC08EA40E90E334311E49746166B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A90887EDC2C91F2ADCF8976B92BE0795 /* DCAnimationKit */,
+				6D042C88620BDE09ED520AF46BC32A15 /* MisterFusion */,
 				A8934A028D7209DA3501572C72A8F11F /* Pods-Study-08 */,
+				D99757DF102E61105024A0FF665A070A /* SAHistoryNavigationViewController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B6BC9A3529A40130B0A3934C75686685 /* Resources */ = {
+		29BF0D3AD9B08296B97F0B91C6ED5A0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB770EC380F0CA57CD4A2C4A6CFBA6E4 /* Resources */ = {
+		A400E37A01A11FB89EBC7AEFEA7FE832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EC53B7649F7456092B85CF28FD3EBA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,36 +411,71 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2B352DB8C274862FFEF08664FF773DC1 /* Sources */ = {
+		1ACE5A49288675FD67EB7155FE6204E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FB70FFCDB14214FC53FB6D39F78C898 /* Pods-Study-08-dummy.m in Sources */,
+				F01F592A487AFDA448D866F27B1EE298 /* Pods-Study-08-dummy.m in Sources */,
+				AC4E53A92A20B25600A12F80 /* SAHistoryNavigationTransitionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97A0E0F7B03AB7CD1A71BF5CF6AEDC87 /* Sources */ = {
+		A6B7CFF5406087FB454005C93B377517 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CDD8F8E472F1F2CB8550E17C3EEA7CA /* DCAnimationKit-dummy.m in Sources */,
-				0B851BC119DF321EE988241292B95ED8 /* UIView+DCAnimationKit.m in Sources */,
+				9587BA638F32E7E27322D49B7B9DCEB6 /* Array+MisterFusion.swift in Sources */,
+				C5511950F97B8BB388791C07DCD9C81B /* Deprecated.swift in Sources */,
+				C15245E7833B6B98C45C55A93ECE5643 /* MisterFusion.swift in Sources */,
+				217149E45157D7F84A09FB64B2BA2E70 /* MisterFusion-dummy.m in Sources */,
+				665411283F825023481D5F1E3488AAF2 /* MisterFusion.SafeArea.swift in Sources */,
+				AC4E53A82A20B25600A12F80 /* SAHistoryNavigationTransitionController.swift in Sources */,
+				A8C1DA958089CB8559D653460EC5DA83 /* MisterFusionConvertible.swift in Sources */,
+				A4D5965FAB8C29930084C4F2062116D3 /* MisterFusionExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF738F4E0D3ABD930A10BCA207687EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BCB207EC4C4294FCC9A5D591EEAABBB /* SAHistoryExtension.swift in Sources */,
+				051538ADBA595429EBC8940856C3EED6 /* SAHistoryNavigationTransitionController.swift in Sources */,
+				D03405E11C3BC9DC30B7C6874905E0A7 /* SAHistoryNavigationViewController.swift in Sources */,
+				D390448FCE6373C3E235B4A2146518B4 /* SAHistoryNavigationViewController-dummy.m in Sources */,
+				A65C0F9EAF7FA6EE8AF4889F40C86D43 /* SAHistoryViewAnimatedTransitioning.swift in Sources */,
+				03AA22466DAD761F806CE8D6C4764AD0 /* SAHistoryViewController.swift in Sources */,
+				9EE8B6C6C3109FBBD170A006DF81E5DC /* SAThirdDimensionalTouchRecognizer.swift in Sources */,
+				D762E3616FB55078DEBC613654F1D3DB /* UIView+Screenshot.swift in Sources */,
+				8B7C566C9102DF0E78DDA5B51E8BDA39 /* UIViewController+Screenshot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		51A6987EC43F58990E89B596939931DE /* PBXTargetDependency */ = {
+		37D1BEB447ECDD27395CE34F9210BC2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = DCAnimationKit;
-			target = A90887EDC2C91F2ADCF8976B92BE0795 /* DCAnimationKit */;
-			targetProxy = D42DA38FBFECA009B66182660B68FEE8 /* PBXContainerItemProxy */;
+			name = MisterFusion;
+			target = 6D042C88620BDE09ED520AF46BC32A15 /* MisterFusion */;
+			targetProxy = D0409235DCCC0658C6320ABB3A93915B /* PBXContainerItemProxy */;
+		};
+		8109A7C7E65F923C721A214102254855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MisterFusion;
+			target = 6D042C88620BDE09ED520AF46BC32A15 /* MisterFusion */;
+			targetProxy = FB0CDE5EB1EDB01892E0BF80F69F87ED /* PBXContainerItemProxy */;
+		};
+		BBD38BF4C8E1CC8E3E3EED179625D6E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAHistoryNavigationViewController;
+			target = D99757DF102E61105024A0FF665A070A /* SAHistoryNavigationViewController */;
+			targetProxy = 41DB979FCE707AAF702298C7C2DAABD9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		68DAF21E17B97C9D2356C2BE725BD928 /* Release */ = {
+		0E5954914E3EA8E848974CBA79AFA2B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0323214DBC8EE195773292C1B799DC33 /* Pods-Study-08.release.xcconfig */;
 			buildSettings = {
@@ -319,11 +492,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-Study-08/Pods-Study-08-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Study-08/Pods-Study-08.modulemap";
 				OTHER_LDFLAGS = "";
@@ -340,12 +509,10 @@
 			};
 			name = Release;
 		};
-		6EAFF23511810629AFEFA2E5954D3C1B /* Debug */ = {
+		28B0F74CC8F62088E0A2F211958D08F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4554F6CE844B2C0E6DFDC9C7CB8B6B1 /* Pods-Study-08.debug.xcconfig */;
+			baseConfigurationReference = 993536868D45EEAEC82DA554AA8211F1 /* MisterFusion.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -354,32 +521,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Study-08/Pods-Study-08-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MisterFusion/MisterFusion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MisterFusion/MisterFusion-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Study-08/Pods-Study-08.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MisterFusion/MisterFusion.modulemap";
+				PRODUCT_MODULE_NAME = MisterFusion;
+				PRODUCT_NAME = MisterFusion;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		7991874160B5D8FC2FF5794FCA9DB65C /* Release */ = {
+		559D96BF6B8CDB60DBC8ED7E9AA86249 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A86FF244F8B19A78424395B36EFA43FD /* DCAnimationKit.release.xcconfig */;
+			baseConfigurationReference = 16DD23752F284E2B7E8A238FE375DE86 /* SAHistoryNavigationViewController.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -389,18 +552,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DCAnimationKit/DCAnimationKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DCAnimationKit/DCAnimationKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SAHistoryNavigationViewController/SAHistoryNavigationViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAHistoryNavigationViewController/SAHistoryNavigationViewController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DCAnimationKit/DCAnimationKit.modulemap";
-				PRODUCT_MODULE_NAME = DCAnimationKit;
-				PRODUCT_NAME = DCAnimationKit;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SAHistoryNavigationViewController/SAHistoryNavigationViewController.modulemap";
+				PRODUCT_MODULE_NAME = SAHistoryNavigationViewController;
+				PRODUCT_NAME = SAHistoryNavigationViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -478,9 +637,42 @@
 			};
 			name = Debug;
 		};
-		FE7A0F0CFA531F3E18F9C6D086377CB8 /* Debug */ = {
+		D6200847EE656C2E66017A2FA0F372EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDB5659477D4A9E75A9DF01B609EB3F5 /* DCAnimationKit.debug.xcconfig */;
+			baseConfigurationReference = E4554F6CE844B2C0E6DFDC9C7CB8B6B1 /* Pods-Study-08.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Study-08/Pods-Study-08-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Study-08/Pods-Study-08.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DACD427197297DF09ADBFF52BE765F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E12C28AE0C37AEA3AA6AD7DE0B00B362 /* MisterFusion.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -490,18 +682,44 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DCAnimationKit/DCAnimationKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DCAnimationKit/DCAnimationKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MisterFusion/MisterFusion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MisterFusion/MisterFusion-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DCAnimationKit/DCAnimationKit.modulemap";
-				PRODUCT_MODULE_NAME = DCAnimationKit;
-				PRODUCT_NAME = DCAnimationKit;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MisterFusion/MisterFusion.modulemap";
+				PRODUCT_MODULE_NAME = MisterFusion;
+				PRODUCT_NAME = MisterFusion;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E191AD116E8099B0CB3B2F9BFA7C1F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F04CE9F0DC53FF54C242FE6B3FD7BEC /* SAHistoryNavigationViewController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SAHistoryNavigationViewController/SAHistoryNavigationViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAHistoryNavigationViewController/SAHistoryNavigationViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SAHistoryNavigationViewController/SAHistoryNavigationViewController.modulemap";
+				PRODUCT_MODULE_NAME = SAHistoryNavigationViewController;
+				PRODUCT_NAME = SAHistoryNavigationViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -567,8 +785,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -577,15 +794,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		180CDDCDB30D2F32B48241F3718FFB39 /* Build configuration list for PBXNativeTarget "DCAnimationKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FE7A0F0CFA531F3E18F9C6D086377CB8 /* Debug */,
-				7991874160B5D8FC2FF5794FCA9DB65C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -595,11 +803,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECD33DF578E7F86AECB6CF5114E46DF9 /* Build configuration list for PBXNativeTarget "Pods-Study-08" */ = {
+		6859A0E18E59F2925AC963F3D8AA7342 /* Build configuration list for PBXNativeTarget "Pods-Study-08" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EAFF23511810629AFEFA2E5954D3C1B /* Debug */,
-				68DAF21E17B97C9D2356C2BE725BD928 /* Release */,
+				D6200847EE656C2E66017A2FA0F372EF /* Debug */,
+				0E5954914E3EA8E848974CBA79AFA2B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B35C07E86C83D8519AB98954E07013D2 /* Build configuration list for PBXNativeTarget "MisterFusion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACD427197297DF09ADBFF52BE765F55 /* Debug */,
+				28B0F74CC8F62088E0A2F211958D08F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7145D22C5EA10C9E670DDB423301C1F /* Build configuration list for PBXNativeTarget "SAHistoryNavigationViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E191AD116E8099B0CB3B2F9BFA7C1F39 /* Debug */,
+				559D96BF6B8CDB60DBC8ED7E9AA86249 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
