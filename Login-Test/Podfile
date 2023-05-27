@@ -6,5 +6,6 @@ target 'Login-Test' do
   use_frameworks!
 
   # Pods for Login-Test
-  pod 'naveridlogin-sdk-ios'
+pod 'naveridlogin-sdk-ios'
+pod 'Alamofire', '~> 5.1'
 end
