@@ -7,6 +7,8 @@
 
 import UIKit
 import AuthenticationServices
+import Firebase
+import GoogleSignIn
 
 class ViewController: UIViewController {
     private let signInButton = ASAuthorizationAppleIDButton()
