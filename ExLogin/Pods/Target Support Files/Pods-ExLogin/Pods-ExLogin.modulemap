@@ -1,6 +1,0 @@
-framework module Pods_ExLogin {
-  umbrella header "Pods-ExLogin-umbrella.h"
-
-  export *
-  module * { export * }
-}
