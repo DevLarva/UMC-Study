@@ -1,6 +1,0 @@
-framework module Pods_MultiLogin {
-  umbrella header "Pods-MultiLogin-umbrella.h"
-
-  export *
-  module * { export * }
-}

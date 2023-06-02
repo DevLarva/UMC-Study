@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC079EDA2A2A280A00C9E6B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC079ED92A2A280A00C9E6B2 /* AppDelegate.swift */; };
+		AC079EDC2A2A280A00C9E6B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC079EDB2A2A280A00C9E6B2 /* SceneDelegate.swift */; };
+		AC079EDE2A2A280A00C9E6B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC079EDD2A2A280A00C9E6B2 /* ViewController.swift */; };
+		AC079EE12A2A280A00C9E6B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC079EDF2A2A280A00C9E6B2 /* Main.storyboard */; };
+		AC079EE32A2A280B00C9E6B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC079EE22A2A280B00C9E6B2 /* Assets.xcassets */; };
+		AC079EE62A2A280B00C9E6B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC079EE42A2A280B00C9E6B2 /* LaunchScreen.storyboard */; };
+		AECC7F2C5FECDD5728EF04AC /* Pods_MultiLoginEX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D3475E4F6F68E65306FD99 /* Pods_MultiLoginEX.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		75D3475E4F6F68E65306FD99 /* Pods_MultiLoginEX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiLoginEX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC079ED62A2A280A00C9E6B2 /* MultiLoginEX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiLoginEX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC079ED92A2A280A00C9E6B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC079EDB2A2A280A00C9E6B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC079EDD2A2A280A00C9E6B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC079EE02A2A280A00C9E6B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC079EE22A2A280B00C9E6B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC079EE52A2A280B00C9E6B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC079EE72A2A280B00C9E6B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4D542F351E710953FEDABA4 /* Pods-MultiLoginEX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiLoginEX.release.xcconfig"; path = "Target Support Files/Pods-MultiLoginEX/Pods-MultiLoginEX.release.xcconfig"; sourceTree = "<group>"; };
+		E78F57EF3767D2CA92E21AD7 /* Pods-MultiLoginEX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiLoginEX.debug.xcconfig"; path = "Target Support Files/Pods-MultiLoginEX/Pods-MultiLoginEX.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC079ED32A2A280A00C9E6B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECC7F2C5FECDD5728EF04AC /* Pods_MultiLoginEX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC079ECD2A2A280A00C9E6B2 = {
+			isa = PBXGroup;
+			children = (
+				AC079ED82A2A280A00C9E6B2 /* MultiLoginEX */,
+				AC079ED72A2A280A00C9E6B2 /* Products */,
+				F897E6AB89CF30BE235229A3 /* Pods */,
+				D8913A1A6121AEEDF7ACB2CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC079ED72A2A280A00C9E6B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC079ED62A2A280A00C9E6B2 /* MultiLoginEX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC079ED82A2A280A00C9E6B2 /* MultiLoginEX */ = {
+			isa = PBXGroup;
+			children = (
+				AC079ED92A2A280A00C9E6B2 /* AppDelegate.swift */,
+				AC079EDB2A2A280A00C9E6B2 /* SceneDelegate.swift */,
+				AC079EDD2A2A280A00C9E6B2 /* ViewController.swift */,
+				AC079EDF2A2A280A00C9E6B2 /* Main.storyboard */,
+				AC079EE22A2A280B00C9E6B2 /* Assets.xcassets */,
+				AC079EE42A2A280B00C9E6B2 /* LaunchScreen.storyboard */,
+				AC079EE72A2A280B00C9E6B2 /* Info.plist */,
+			);
+			path = MultiLoginEX;
+			sourceTree = "<group>";
+		};
+		D8913A1A6121AEEDF7ACB2CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75D3475E4F6F68E65306FD99 /* Pods_MultiLoginEX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F897E6AB89CF30BE235229A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E78F57EF3767D2CA92E21AD7 /* Pods-MultiLoginEX.debug.xcconfig */,
+				C4D542F351E710953FEDABA4 /* Pods-MultiLoginEX.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC079ED52A2A280A00C9E6B2 /* MultiLoginEX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC079EEA2A2A280B00C9E6B2 /* Build configuration list for PBXNativeTarget "MultiLoginEX" */;
+			buildPhases = (
+				FD5A7403C085DFF36C77B135 /* [CP] Check Pods Manifest.lock */,
+				AC079ED22A2A280A00C9E6B2 /* Sources */,
+				AC079ED32A2A280A00C9E6B2 /* Frameworks */,
+				AC079ED42A2A280A00C9E6B2 /* Resources */,
+				622252FBA24789CB86C3DA31 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiLoginEX;
+			productName = MultiLoginEX;
+			productReference = AC079ED62A2A280A00C9E6B2 /* MultiLoginEX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC079ECE2A2A280A00C9E6B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AC079ED52A2A280A00C9E6B2 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = AC079ED12A2A280A00C9E6B2 /* Build configuration list for PBXProject "MultiLoginEX" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC079ECD2A2A280A00C9E6B2;
+			productRefGroup = AC079ED72A2A280A00C9E6B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC079ED52A2A280A00C9E6B2 /* MultiLoginEX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC079ED42A2A280A00C9E6B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC079EE62A2A280B00C9E6B2 /* LaunchScreen.storyboard in Resources */,
+				AC079EE32A2A280B00C9E6B2 /* Assets.xcassets in Resources */,
+				AC079EE12A2A280A00C9E6B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		622252FBA24789CB86C3DA31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiLoginEX/Pods-MultiLoginEX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiLoginEX/Pods-MultiLoginEX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiLoginEX/Pods-MultiLoginEX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD5A7403C085DFF36C77B135 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiLoginEX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC079ED22A2A280A00C9E6B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC079EDE2A2A280A00C9E6B2 /* ViewController.swift in Sources */,
+				AC079EDA2A2A280A00C9E6B2 /* AppDelegate.swift in Sources */,
+				AC079EDC2A2A280A00C9E6B2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC079EDF2A2A280A00C9E6B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC079EE02A2A280A00C9E6B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC079EE42A2A280B00C9E6B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC079EE52A2A280B00C9E6B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC079EE82A2A280B00C9E6B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC079EE92A2A280B00C9E6B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC079EEB2A2A280B00C9E6B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78F57EF3767D2CA92E21AD7 /* Pods-MultiLoginEX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N7YRTC92N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MultiLoginEX/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dae-bong-ski.MultiLoginEX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC079EEC2A2A280B00C9E6B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D542F351E710953FEDABA4 /* Pods-MultiLoginEX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N7YRTC92N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MultiLoginEX/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dae-bong-ski.MultiLoginEX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC079ED12A2A280A00C9E6B2 /* Build configuration list for PBXProject "MultiLoginEX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC079EE82A2A280B00C9E6B2 /* Debug */,
+				AC079EE92A2A280B00C9E6B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC079EEA2A2A280B00C9E6B2 /* Build configuration list for PBXNativeTarget "MultiLoginEX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC079EEB2A2A280B00C9E6B2 /* Debug */,
+				AC079EEC2A2A280B00C9E6B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC079ECE2A2A280A00C9E6B2 /* Project object */;
+}
