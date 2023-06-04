@@ -15,7 +15,7 @@
 		AC3BB7F52A2C615800D7B27A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3BB7F42A2C615800D7B27A /* Assets.xcassets */; };
 		AC3BB7F82A2C615800D7B27A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3BB7F62A2C615800D7B27A /* LaunchScreen.storyboard */; };
 		ACC873E72A2C6EF900CE035C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = ACC873E62A2C6EF900CE035C /* .gitignore */; };
-		ACC873E92A2C700100CE035C /* NaverMapClientID.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC873E82A2C700100CE035C /* NaverMapClientID.swift */; };
+		ACC873EB2A2C709500CE035C /* NaverMapClientID.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC873EA2A2C709500CE035C /* NaverMapClientID.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		AC3BB7F72A2C615800D7B27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC3BB7F92A2C615800D7B27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACC873E62A2C6EF900CE035C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		ACC873E82A2C700100CE035C /* NaverMapClientID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverMapClientID.swift; sourceTree = "<group>"; };
+		ACC873EA2A2C709500CE035C /* NaverMapClientID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverMapClientID.swift; sourceTree = "<group>"; };
 		EFF9C49DD25A8E595E96C4EC /* Pods-NaverMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverMap.debug.xcconfig"; path = "Target Support Files/Pods-NaverMap/Pods-NaverMap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,10 +85,10 @@
 		AC3BB7EA2A2C615700D7B27A /* NaverMap */ = {
 			isa = PBXGroup;
 			children = (
+				ACC873EA2A2C709500CE035C /* NaverMapClientID.swift */,
 				AC3BB7EB2A2C615700D7B27A /* AppDelegate.swift */,
 				AC3BB7ED2A2C615700D7B27A /* SceneDelegate.swift */,
 				AC3BB7EF2A2C615700D7B27A /* ViewController.swift */,
-				ACC873E82A2C700100CE035C /* NaverMapClientID.swift */,
 				AC3BB7F12A2C615700D7B27A /* Main.storyboard */,
 				AC3BB7F42A2C615800D7B27A /* Assets.xcassets */,
 				AC3BB7F62A2C615800D7B27A /* LaunchScreen.storyboard */,
@@ -216,7 +216,7 @@
 				AC3BB7F02A2C615700D7B27A /* ViewController.swift in Sources */,
 				AC3BB7EC2A2C615700D7B27A /* AppDelegate.swift in Sources */,
 				AC3BB7EE2A2C615700D7B27A /* SceneDelegate.swift in Sources */,
-				ACC873E92A2C700100CE035C /* NaverMapClientID.swift in Sources */,
+				ACC873EB2A2C709500CE035C /* NaverMapClientID.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
