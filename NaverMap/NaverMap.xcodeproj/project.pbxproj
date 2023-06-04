@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1896CD96A258CBDEC2C273B4 /* Pods_NaverMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA071F0A35B796F83539E33 /* Pods_NaverMap.framework */; };
+		AC3BB7EC2A2C615700D7B27A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3BB7EB2A2C615700D7B27A /* AppDelegate.swift */; };
+		AC3BB7EE2A2C615700D7B27A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3BB7ED2A2C615700D7B27A /* SceneDelegate.swift */; };
+		AC3BB7F02A2C615700D7B27A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3BB7EF2A2C615700D7B27A /* ViewController.swift */; };
+		AC3BB7F32A2C615700D7B27A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3BB7F12A2C615700D7B27A /* Main.storyboard */; };
+		AC3BB7F52A2C615800D7B27A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3BB7F42A2C615800D7B27A /* Assets.xcassets */; };
+		AC3BB7F82A2C615800D7B27A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3BB7F62A2C615800D7B27A /* LaunchScreen.storyboard */; };
+		ACC873E52A2C6CFF00CE035C /* NaverMapClientID.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC873E42A2C6CFF00CE035C /* NaverMapClientID.swift */; };
+		ACC873E72A2C6EF900CE035C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = ACC873E62A2C6EF900CE035C /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BA071F0A35B796F83539E33 /* Pods_NaverMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		848529B896E98AF576A2D547 /* Pods-NaverMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverMap.release.xcconfig"; path = "Target Support Files/Pods-NaverMap/Pods-NaverMap.release.xcconfig"; sourceTree = "<group>"; };
+		AC3BB7E82A2C615700D7B27A /* NaverMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaverMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3BB7EB2A2C615700D7B27A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC3BB7ED2A2C615700D7B27A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC3BB7EF2A2C615700D7B27A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC3BB7F22A2C615700D7B27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC3BB7F42A2C615800D7B27A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC3BB7F72A2C615800D7B27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC3BB7F92A2C615800D7B27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC873E42A2C6CFF00CE035C /* NaverMapClientID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverMapClientID.swift; sourceTree = "<group>"; };
+		ACC873E62A2C6EF900CE035C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EFF9C49DD25A8E595E96C4EC /* Pods-NaverMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverMap.debug.xcconfig"; path = "Target Support Files/Pods-NaverMap/Pods-NaverMap.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC3BB7E52A2C615700D7B27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1896CD96A258CBDEC2C273B4 /* Pods_NaverMap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B9193CB5C35677CE2FDA760 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFF9C49DD25A8E595E96C4EC /* Pods-NaverMap.debug.xcconfig */,
+				848529B896E98AF576A2D547 /* Pods-NaverMap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9276BEA7DFCAD4040B8C826D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BA071F0A35B796F83539E33 /* Pods_NaverMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC3BB7DF2A2C615700D7B27A = {
+			isa = PBXGroup;
+			children = (
+				ACC873E62A2C6EF900CE035C /* .gitignore */,
+				AC3BB7EA2A2C615700D7B27A /* NaverMap */,
+				AC3BB7E92A2C615700D7B27A /* Products */,
+				7B9193CB5C35677CE2FDA760 /* Pods */,
+				9276BEA7DFCAD4040B8C826D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC3BB7E92A2C615700D7B27A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC3BB7E82A2C615700D7B27A /* NaverMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC3BB7EA2A2C615700D7B27A /* NaverMap */ = {
+			isa = PBXGroup;
+			children = (
+				AC3BB7EB2A2C615700D7B27A /* AppDelegate.swift */,
+				ACC873E42A2C6CFF00CE035C /* NaverMapClientID.swift */,
+				AC3BB7ED2A2C615700D7B27A /* SceneDelegate.swift */,
+				AC3BB7EF2A2C615700D7B27A /* ViewController.swift */,
+				AC3BB7F12A2C615700D7B27A /* Main.storyboard */,
+				AC3BB7F42A2C615800D7B27A /* Assets.xcassets */,
+				AC3BB7F62A2C615800D7B27A /* LaunchScreen.storyboard */,
+				AC3BB7F92A2C615800D7B27A /* Info.plist */,
+			);
+			path = NaverMap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC3BB7E72A2C615700D7B27A /* NaverMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3BB7FC2A2C615800D7B27A /* Build configuration list for PBXNativeTarget "NaverMap" */;
+			buildPhases = (
+				355EF004745009D5B2E9D162 /* [CP] Check Pods Manifest.lock */,
+				AC3BB7E42A2C615700D7B27A /* Sources */,
+				AC3BB7E52A2C615700D7B27A /* Frameworks */,
+				AC3BB7E62A2C615700D7B27A /* Resources */,
+				F323BF95E5E9041CA1B5ECFD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaverMap;
+			productName = NaverMap;
+			productReference = AC3BB7E82A2C615700D7B27A /* NaverMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC3BB7E02A2C615700D7B27A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AC3BB7E72A2C615700D7B27A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AC3BB7E32A2C615700D7B27A /* Build configuration list for PBXProject "NaverMap" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC3BB7DF2A2C615700D7B27A;
+			productRefGroup = AC3BB7E92A2C615700D7B27A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC3BB7E72A2C615700D7B27A /* NaverMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC3BB7E62A2C615700D7B27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC873E72A2C6EF900CE035C /* .gitignore in Resources */,
+				AC3BB7F82A2C615800D7B27A /* LaunchScreen.storyboard in Resources */,
+				AC3BB7F52A2C615800D7B27A /* Assets.xcassets in Resources */,
+				AC3BB7F32A2C615700D7B27A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		355EF004745009D5B2E9D162 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaverMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F323BF95E5E9041CA1B5ECFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NaverMap/Pods-NaverMap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NaverMap/Pods-NaverMap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NaverMap/Pods-NaverMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC3BB7E42A2C615700D7B27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3BB7F02A2C615700D7B27A /* ViewController.swift in Sources */,
+				AC3BB7EC2A2C615700D7B27A /* AppDelegate.swift in Sources */,
+				AC3BB7EE2A2C615700D7B27A /* SceneDelegate.swift in Sources */,
+				ACC873E52A2C6CFF00CE035C /* NaverMapClientID.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC3BB7F12A2C615700D7B27A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC3BB7F22A2C615700D7B27A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC3BB7F62A2C615800D7B27A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC3BB7F72A2C615800D7B27A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC3BB7FA2A2C615800D7B27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC3BB7FB2A2C615800D7B27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC3BB7FD2A2C615800D7B27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF9C49DD25A8E595E96C4EC /* Pods-NaverMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N7YRTC92N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NaverMap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dae-bong-ski.NaverMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC3BB7FE2A2C615800D7B27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848529B896E98AF576A2D547 /* Pods-NaverMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N7YRTC92N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NaverMap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dae-bong-ski.NaverMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC3BB7E32A2C615700D7B27A /* Build configuration list for PBXProject "NaverMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3BB7FA2A2C615800D7B27A /* Debug */,
+				AC3BB7FB2A2C615800D7B27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3BB7FC2A2C615800D7B27A /* Build configuration list for PBXNativeTarget "NaverMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3BB7FD2A2C615800D7B27A /* Debug */,
+				AC3BB7FE2A2C615800D7B27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC3BB7E02A2C615700D7B27A /* Project object */;
+}
