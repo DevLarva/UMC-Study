@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C8E86926E864F769DA931F9 /* Pods_MultiLogin1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A8B30BA72C91841B8D07BD /* Pods_MultiLogin1.framework */; };
+		ACC874392A2CE48700CE035C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC874382A2CE48700CE035C /* AppDelegate.swift */; };
+		ACC8743B2A2CE48700CE035C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8743A2A2CE48700CE035C /* SceneDelegate.swift */; };
+		ACC8743D2A2CE48700CE035C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8743C2A2CE48700CE035C /* ViewController.swift */; };
+		ACC874402A2CE48700CE035C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC8743E2A2CE48700CE035C /* Main.storyboard */; };
+		ACC874422A2CE48700CE035C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC874412A2CE48700CE035C /* Assets.xcassets */; };
+		ACC874452A2CE48700CE035C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC874432A2CE48700CE035C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11D309D49115788253A181A2 /* Pods-MultiLogin1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiLogin1.debug.xcconfig"; path = "Target Support Files/Pods-MultiLogin1/Pods-MultiLogin1.debug.xcconfig"; sourceTree = "<group>"; };
+		4AC44EAF3B52FCF0BF8E76E2 /* Pods-MultiLogin1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiLogin1.release.xcconfig"; path = "Target Support Files/Pods-MultiLogin1/Pods-MultiLogin1.release.xcconfig"; sourceTree = "<group>"; };
+		ACC874352A2CE48700CE035C /* MultiLogin1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiLogin1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC874382A2CE48700CE035C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACC8743A2A2CE48700CE035C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ACC8743C2A2CE48700CE035C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACC8743F2A2CE48700CE035C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACC874412A2CE48700CE035C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACC874442A2CE48700CE035C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACC874462A2CE48700CE035C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC8744C2A2CE5B200CE035C /* MultiLogin1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MultiLogin1.entitlements; sourceTree = "<group>"; };
+		B3A8B30BA72C91841B8D07BD /* Pods_MultiLogin1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiLogin1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC874322A2CE48700CE035C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8E86926E864F769DA931F9 /* Pods_MultiLogin1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72BC195C7FA67C91B8421D5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3A8B30BA72C91841B8D07BD /* Pods_MultiLogin1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89F1588513E0FAF970F3EE65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11D309D49115788253A181A2 /* Pods-MultiLogin1.debug.xcconfig */,
+				4AC44EAF3B52FCF0BF8E76E2 /* Pods-MultiLogin1.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ACC8742C2A2CE48600CE035C = {
+			isa = PBXGroup;
+			children = (
+				ACC874372A2CE48700CE035C /* MultiLogin1 */,
+				ACC874362A2CE48700CE035C /* Products */,
+				89F1588513E0FAF970F3EE65 /* Pods */,
+				72BC195C7FA67C91B8421D5F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC874362A2CE48700CE035C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC874352A2CE48700CE035C /* MultiLogin1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC874372A2CE48700CE035C /* MultiLogin1 */ = {
+			isa = PBXGroup;
+			children = (
+				ACC8744C2A2CE5B200CE035C /* MultiLogin1.entitlements */,
+				ACC874382A2CE48700CE035C /* AppDelegate.swift */,
+				ACC8743A2A2CE48700CE035C /* SceneDelegate.swift */,
+				ACC8743C2A2CE48700CE035C /* ViewController.swift */,
+				ACC8743E2A2CE48700CE035C /* Main.storyboard */,
+				ACC874412A2CE48700CE035C /* Assets.xcassets */,
+				ACC874432A2CE48700CE035C /* LaunchScreen.storyboard */,
+				ACC874462A2CE48700CE035C /* Info.plist */,
+			);
+			path = MultiLogin1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC874342A2CE48700CE035C /* MultiLogin1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC874492A2CE48700CE035C /* Build configuration list for PBXNativeTarget "MultiLogin1" */;
+			buildPhases = (
+				6331585B58C85CB466BCB754 /* [CP] Check Pods Manifest.lock */,
+				ACC874312A2CE48700CE035C /* Sources */,
+				ACC874322A2CE48700CE035C /* Frameworks */,
+				ACC874332A2CE48700CE035C /* Resources */,
+				F8B9E9F1ABB37B1037AAA5BA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiLogin1;
+			productName = MultiLogin1;
+			productReference = ACC874352A2CE48700CE035C /* MultiLogin1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC8742D2A2CE48600CE035C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ACC874342A2CE48700CE035C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = ACC874302A2CE48600CE035C /* Build configuration list for PBXProject "MultiLogin1" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACC8742C2A2CE48600CE035C;
+			productRefGroup = ACC874362A2CE48700CE035C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC874342A2CE48700CE035C /* MultiLogin1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC874332A2CE48700CE035C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC874452A2CE48700CE035C /* LaunchScreen.storyboard in Resources */,
+				ACC874422A2CE48700CE035C /* Assets.xcassets in Resources */,
+				ACC874402A2CE48700CE035C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6331585B58C85CB466BCB754 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiLogin1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8B9E9F1ABB37B1037AAA5BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiLogin1/Pods-MultiLogin1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiLogin1/Pods-MultiLogin1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiLogin1/Pods-MultiLogin1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC874312A2CE48700CE035C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC8743D2A2CE48700CE035C /* ViewController.swift in Sources */,
+				ACC874392A2CE48700CE035C /* AppDelegate.swift in Sources */,
+				ACC8743B2A2CE48700CE035C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACC8743E2A2CE48700CE035C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC8743F2A2CE48700CE035C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACC874432A2CE48700CE035C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC874442A2CE48700CE035C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACC874472A2CE48700CE035C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACC874482A2CE48700CE035C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACC8744A2A2CE48700CE035C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D309D49115788253A181A2 /* Pods-MultiLogin1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MultiLogin1/MultiLogin1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N7YRTC92N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MultiLogin1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dae-bong-ski.MultiLogin1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACC8744B2A2CE48700CE035C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC44EAF3B52FCF0BF8E76E2 /* Pods-MultiLogin1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MultiLogin1/MultiLogin1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N7YRTC92N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MultiLogin1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dae-bong-ski.MultiLogin1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC874302A2CE48600CE035C /* Build configuration list for PBXProject "MultiLogin1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC874472A2CE48700CE035C /* Debug */,
+				ACC874482A2CE48700CE035C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC874492A2CE48700CE035C /* Build configuration list for PBXNativeTarget "MultiLogin1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC8744A2A2CE48700CE035C /* Debug */,
+				ACC8744B2A2CE48700CE035C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACC8742D2A2CE48600CE035C /* Project object */;
+}
